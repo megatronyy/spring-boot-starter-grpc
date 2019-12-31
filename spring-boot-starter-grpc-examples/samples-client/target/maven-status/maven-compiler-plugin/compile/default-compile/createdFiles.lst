@@ -1,0 +1,4 @@
+com\anoyi\grpc\client\Application.class
+com\anoyi\grpc\client\controller\V1UserController.class
+com\anoyi\grpc\client\controller\V2UserController.class
+com\anoyi\grpc\client\controller\V3UserController.class

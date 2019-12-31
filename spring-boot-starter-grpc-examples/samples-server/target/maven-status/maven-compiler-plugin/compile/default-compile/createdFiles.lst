@@ -1,0 +1,5 @@
+com\anoyi\grpc\server\service\UserServiceByProtoStuffImpl.class
+com\anoyi\grpc\server\service\UserServiceByFastJSONImpl.class
+com\anoyi\grpc\server\service\UserServiceBySofaHessianImpl.class
+com\anoyi\grpc\server\controller\V0UserController.class
+com\anoyi\grpc\server\Application.class

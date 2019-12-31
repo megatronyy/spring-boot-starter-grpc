@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "spring.grpc",
+      "type": "com.xbo.grpc.config.GrpcProperties",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.grpc.client-interceptor",
+      "type": "java.lang.Class",
+      "description": "client interceptor",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.enable",
+      "type": "java.lang.Boolean",
+      "description": "enable server start",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.grpc.port",
+      "type": "java.lang.Integer",
+      "description": "server listen port",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties",
+      "defaultValue": 16565
+    },
+    {
+      "name": "spring.grpc.remote-servers",
+      "type": "java.util.List<com.xbo.grpc.config.RemoteServer>",
+      "description": "client config",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.server-interceptor",
+      "type": "java.lang.Class",
+      "description": "server interceptor",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    }
+  ],
+  "hints": []
+}

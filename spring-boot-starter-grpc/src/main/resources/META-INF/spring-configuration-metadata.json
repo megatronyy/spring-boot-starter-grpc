@@ -1,0 +1,49 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "name": "spring.grpc",
+      "type": "com.xbo.grpc.config.GrpcProperties",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.grpc.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties",
+      "defaultValue": 16565
+    },
+    {
+      "name": "spring.grpc.clientInterceptor",
+      "type": "java.lang.Class",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.serverInterceptor",
+      "type": "java.lang.Class",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.enableNameResolverRefresh",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.nameResolverInitialDelay",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    },
+    {
+      "name": "spring.grpc.nameResolverPeriod",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xbo.grpc.config.GrpcProperties"
+    }
+  ]
+
+}
